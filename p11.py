@@ -56,7 +56,7 @@ except ValueError as e:
     processed_qa_data = {}
 
 # Streamlit App
-st.title("Question Answering System")
+st.title("Git&Github BasicDetais Question Answering System")
 
 user_input = st.text_input("Enter your question:")
 
