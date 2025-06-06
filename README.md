@@ -6,6 +6,7 @@ Built using NLTK for Natural Language Processing and Streamlit for a web-based i
 Whether you're just starting out with version control or trying to remember a specific Git command, this chatbot is here to support your learning journey. 
   
 **Features:** 
+
 ✅ Answers common questions related to Git and GitHub.
 ✅ Uses NLTK for text preprocessing (tokenization, stopword removal, lemmatization, POS tagging) .
 ✅ Employs a CSV-based Q&A dataset to handle dynamic queries.
