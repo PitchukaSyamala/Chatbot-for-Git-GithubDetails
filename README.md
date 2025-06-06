@@ -5,8 +5,7 @@ The Git & GitHub Chatbot is an AI-powered assistant designed to provide instant 
 Built using NLTK for Natural Language Processing and Streamlit for a web-based interface, this chatbot serves as a friendly guide for new users and beginners, helping them quickly grasp important commands, concepts, and workflows in Git and GitHub—without the need to sift through long and complex documentation. 
 Whether you're just starting out with version control or trying to remember a specific Git command, this chatbot is here to support your learning journey. 
   
-**Features:** 
-
+**Features:**
 ✅ Answers common questions related to Git and GitHub.
 ✅ Uses NLTK for text preprocessing (tokenization, stopword removal, lemmatization, POS tagging) .
 ✅ Employs a CSV-based Q&A dataset to handle dynamic queries.
@@ -20,15 +19,15 @@ Whether you're just starting out with version control or trying to remember a sp
               punkt o stopwords o wordnet 
               averaged_perceptron_tagger 
   
-**How to Run the Project: **
+**How to Run the Project**: 
 Step 1: Place your CSV Dataset 
-Ensure your git_github_qa_dataset.csv is in the same folder as your Python script. It must contain two columns: Question and Answer. 
- 
-Step 2: Run the Chatbot streamlit run app.py Step 3: Interact with the Chatbot Once launched in your browser: 
-•	Enter a question about Git/GitHub in the textbox .
-•	Get a relevant answer based on the dataset .
-  
-**How It Works: **
+    Ensure your git_github_qa_dataset.csv is in the same folder as your Python script. It must contain two columns: Question and Answer. 
+Step 2: Run the Chatbot streamlit run app.py
+Step 3: Interact with the Chatbot Once launched in your browser: 
+    •	Enter a question about Git/GitHub in the textbox .
+    •	Get a relevant answer based on the dataset .
+      
+**How It Works:**
 1.	User Input is taken via a text field. 
 2.	The question is preprocessed using: 
 o	Tokenization o 	Lowercasing o 	Alphanumeric filtering o 	Stopword removal 
